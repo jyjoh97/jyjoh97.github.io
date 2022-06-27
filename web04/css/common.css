@@ -20,7 +20,7 @@ html, body { width: 100%; height: 100%; }
 .con_infosec { max-width: 1400px; height: 424px; padding: 60px 0; margin: 0 auto;}
 .con_info_first { float: left; width: 68%; height: 422px; }
 .con_visit { height: 330px; margin-right: 40px; padding: 40px 35% 50px 60px; border: 1px solid #1f75b0;
-    background: url(./img/floor1.jpg); background-position: center; }
+    background: url(../img/floor1.jpg); background-position: center; }
 .con_info_first ul li p { font-size: 22px; font-weight: 400; line-height: 1.4; }
 .con_info_first ul li p strong { display:block; font-size: 44px; font-weight: 400; line-height: 1.0;
     margin-bottom: -10px;    color: #1f75b0; font-weight: 500; letter-spacing: -2px; }

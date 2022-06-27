@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+html, body { width: 100%; height: 100%; }
+.con_wrap { display: block; width: 100%; height: 100%; padding-top: 0%; }
+*{ list-style: none; }
+*{ margin:0 auto; height: auto; padding: 0; }
+
+
+/* 슬라이더 부분 */
+.con_content { display: block; clear: both; width: 100%; }
+.con_slide { display: block; width: 100%; height: 500px; overflow: hidden;}
+.con_slide_box { width: 500%; } 
+.con_slide_box li { float: left; width: 20%; position: relative;}
+.con_test { display: block; width: 100%;  overflow: hidden; }
+.con_slide_box li a img {  width: 100%; height: 500px; display:block; }
+
+
+/* 처음 오셨나요 부분 */
+.con_info { display: block; background-color: #f6f6fa; height: 544px; }
+.con_infosec { max-width: 1400px; height: 424px; padding: 60px 0; margin: 0 auto;}
+.con_info_first { float: left; width: 68%; height: 422px; }
+.con_visit { height: 330px; margin-right: 40px; padding: 40px 35% 50px 60px; border: 1px solid #1f75b0;
+    background: url(./img/floor1.jpg); background-position: center; }
+.con_info_first ul li p { font-size: 22px; font-weight: 400; line-height: 1.4; }
+.con_info_first ul li p strong { display:block; font-size: 44px; font-weight: 400; line-height: 1.0;
+    margin-bottom: -10px;    color: #1f75b0; font-weight: 500; letter-spacing: -2px; }
+.con_link { position: relative; margin: 20px 0 0; }
+.con_link span { float: left; width: 50%; }
+.con_link a:not(.guide-btn) { display: block; margin: 5px; background: #1f75b0;
+    border: 1px solid #d3d3d3; color: #fff; font-size: 22px; font-weight: bold;
+    text-align: center; line-height: 82px; transition: all .3s; text-decoration: none;  }
+
+/* 영업시간 부분 */
+.con_info_sales { display: block; float: right; width: 32%; text-align: center; }
+.con_sales { display: block; padding: 55px 50px 60px; background-color: #fff; border: 1px solid #ddd; }
+.con_info_sales p { color: #1f75b0; font-size: 40px; font-weight: 500; line-height: 1; }
+.con_info_sales .con_time { margin: 25px 0 0;  border-bottom: 1px solid #999; }
+.con_info_sales .con_time li:first-child { border-top: 1px solid #999; }
+.con_info_sales .con_time li { font-size: 18px; padding: 12px 0 13px; border-top: 1px solid #ddd; font-weight: 400; line-height: 1.4; }
+.con_info_sales .con_time li .con_t { display: inline-block; }
+.con_info_sales .con_time li .con_day { letter-spacing: 16px; color: #1f75b0; }
+.con_info_sales .con_time li .con_lunch { letter-spacing: 2px; color: #1f75b0; margin-right: 10px; }
+.con_info_sales .con_time li .con_sat { letter-spacing: 2px; color: #1f75b0; margin-right: 14px ; }
+ 
+/* 공지사항 부분 */
+.con_commu { display: block; max-width: 1400px; padding: 60px 0; margin: 0 auto; height: 500px;}
+.con_notice { float: left; width: 42.5%; }
+.con_nobox { background: #f6f6fa; height: 428px; padding: 0 40px; border: 1px solid #ddd; }
+.con_title { padding: 50px 0; font-size: 30px; text-align: center;  }
+.con_list { border-bottom: 1px solid #999; }
+.con_list li:first-child { border-top: 1px solid #999; }
+.con_list li { border-top: 1px solid #e1e1e1; position: relative; padding: 15px  15px 25px; font-size: 16px; }
+.con_date { position: absolute; top: 15px; right: 25px; color: #999;  }
+
+/* 치료사례 부분 */
+.con_case { float: left; width: 25.5%; }
+.con_cabox { display: block; height: 430px; margin-right: 40px; padding: 0 40px; background-image: url(/img/main2.jpg); 
+    text-align: center; color: #fff; }
+.con_cabox .con_list li a { color: #fff; }
+
+/* 자주찾는메뉴 부분 */
+.con_menu { float: right; width: 32%;  }
+.con_menubox { display: block; height: 428px; background: #fff; border: 1px solid #ddd;
+    text-align: center; padding: 0 40px; }
+.con_menubox .con_title { border-bottom: 1px solid #999 }
+.con_menulink { margin: 48px 0 0; }
+.con_menulink li { margin-bottom: 20px; }
